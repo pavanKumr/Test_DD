@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<test name="Test">
+		
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.pavan.smile.FacebookOpenPage" />
+			<class name="com.pavan.smile.AccountCreation" />
+			<class name="com.pavan.smile.SignIn" />
+			<class name="com.pavan.smile.SearchingCricket" />
+			<class name="com.pavan.smile.FindingFriends" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
